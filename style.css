@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.animation {
+  position: relative;
+  /* background-color: #205d64; */
+  background: linear-gradient(100deg, #366175, #255d4f);
+background-size: 400% 400%;
+
+  height: 100vh;
+  width: 100%;
+}
+
+.flying-cloud {
+  position: absolute;
+  width: 20%;
+}
+.flying-ufo {
+  position: absolute;
+  width: 15%;
+  top: 20%;
+  left: 21%;
+}
+.flying-moon {
+  position: absolute;
+  width: 10%;
+  top: 10%;
+  left: 44%;
+  z-index: 0;
+}
+
+.flying-cloud:nth-child(1) {
+  top: 20%;
+  left: 15%;
+}
+.flying-cloud:nth-child(2) {
+  top: 20%;
+ 
+}
+.flying-cloud:nth-child(3) {
+  top: 33%;
+  left: 25%;
+  z-index: 1;
+}
+.flying-cloud:nth-child(4) {
+ 
+  left: 60%;
+}
+.flying-cloud:nth-child(5) {
+  top: 25%;
+  left: 15%;
+  z-index: 2;
+}
+.flying-cloud:nth-child(6) {
+  top: 25px;
+  z-index: 1;
+}
+
+
+
+
