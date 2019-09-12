@@ -21,3 +21,10 @@ class AnimBg {
     el.style.transform = `translate(${posX * ratioX}px, ${posY * ratioY}px)`;
   }
 }
+
+// const Planet = function(x, y, speed, sprite) {
+//   this.x = x;
+//   this.y = y;
+//   this.speed = speed;
+//   this.sprite = 'images/ghost' + sprite + '.png';
+// };

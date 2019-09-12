@@ -4,7 +4,7 @@ body {
 
 .animation {
   position: relative;
-  /* background-color: #205d64; */
+  
   background: linear-gradient(100deg, #366175, #255d4f);
 background-size: 400% 400%;
 
@@ -57,6 +57,13 @@ background-size: 400% 400%;
   z-index: 1;
 }
 
-
+.flying-text {
+  position: absolute;
+  font-family: 'Amatic SC', cursive;
+  font-size: 300%;
+  color: darkgoldenrod;
+  top: 33%;
+  left: 47%;
+}
 
 
